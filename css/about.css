@@ -13,24 +13,31 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
+    height: auto;
 }
 
 .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 5vh;
 }
 
-.explore {
+.amigos {
+    margin-top: 10vh;
+}
+
+.memories {
+    margin-top: 10vh;
+}
+
+.structure {
     display: flex;
+    width: 80%;
     justify-content: space-around;
-    margin: auto;
-    width: 70%;
 }
 
-.img_explore>img {
-    border-radius: 5px;
-}
-
-.text_explore {
+.default {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,14 +46,20 @@
     color: white;
 }
 
-.text_explore>h1 {
+.default_img>img {
+    border-radius: 5px;
+}
+
+.default>h1 {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 2vh;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.text_explore>p {
+.default>p {
     line-height: 2.5vh;
     text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
 }
