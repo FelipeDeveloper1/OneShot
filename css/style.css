@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     height: 100vh;
     width: 100vw;
+    background-color: black;
 }
 
 nav {
@@ -18,10 +19,10 @@ nav {
 }
 
 main {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
-    /* background-image: url(../img/Hollow-Knight-Keyart-Retang.jpg); */
-    background-image: url(../img/section_hollow/templo.jpeg);
+    background-image: url(../img/main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(255, 255, 255);
 }
