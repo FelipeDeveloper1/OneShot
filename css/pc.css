@@ -1,8 +1,7 @@
 .pc {
     width: 100vw;
     height: 100vh;
-    border: 1px solid white;
-    margin-top: 2vh;
+    margin-top: 15vh;
 }
 
 .area_de_trabalho {
@@ -17,21 +16,140 @@
     width: 15%;
 }
 
+.pasta {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pasta>p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
 .window {
     width: 70%;
+    height: 92%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 2px;
 }
 
-.pasta {
-    border-radius: 100%;
-    margin-bottom: 5vh;
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+    border-bottom: 13px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
-.pasta>img {
-    width: 100%;
+.titulo {
+    margin-left: 1vw;
+}
+
+.control_window {
+    display: flex;
+    align-items: center;
     height: 100%;
 }
 
+.control_default {
+    display: flex;
+    justify-content: center;
+    width: 3vw;
+    background-color: white;
+    color: black;
+    height: 85%;
+    margin-right: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.control_default:hover {
+    background-color: #c8c4c4;
+}
+
+.control_default>p {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.minimize {
+    margin-right: 5px;
+}
+
+.close {
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    height: 94%;
+}
+
+.sprite {
+    margin-top: auto;
+    border: 5px solid #5F1B34;
+    margin-left: 1vh;
+    margin-bottom: 1vh;
+}
+
+.personagem {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+
+/* barra de tarefas */
+
 .barra_de_tarefa {
-    background-color: aqua;
-    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    border-top: 5px solid white;
+}
+
+.app_atual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 85%;
+    width: 10vw;
+    border-radius: 3px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.app_atual>p {
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hora_atual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+    height: 100%;
+    margin-right: 2vw;
+}
+
+.hora_atual>p {
+    font-size: 32px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hora {
+    margin-right: 1vh;
 }
