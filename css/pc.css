@@ -92,14 +92,40 @@
 
 .display {
     display: flex;
-    height: 94%;
+    height: 93.5%;
+    background-image: linear-gradient(to right, #300214, #24000F, #220010);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personagem_text {
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 0.5vw;
+    height: 45%;
+    width: 30vw;
+    margin-top: 10vh;
+    color: white;
+    border-radius: 10px;
+}
+
+.personagem_text>p {
+    font-size: 26px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sprite {
-    margin-top: auto;
-    border: 5px solid #5F1B34;
     margin-left: 1vh;
     margin-bottom: 1vh;
+}
+
+.sprite>img {
+    border: 5px solid #5F1B34;
 }
 
 .personagem {
