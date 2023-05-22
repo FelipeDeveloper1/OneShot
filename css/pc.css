@@ -115,6 +115,7 @@
     justify-content: center;
     width: 3vw;
     height: 100%;
+    cursor: pointer;
 }
 
 .arrow>img {
@@ -185,7 +186,8 @@
     justify-content: center;
     background-color: white;
     height: 85%;
-    width: 10vw;
+    width: auto;
+    padding: 15px;
     border-radius: 3px;
     margin-left: 2px;
     cursor: pointer;
