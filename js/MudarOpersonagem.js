@@ -1,7 +1,10 @@
 class Movewindow {
-    constructor(arrow) {
+    constructor(arrow, img, sprite) {
         this.data = {}
         this.arrow = document.querySelectorAll(arrow)
+        this.img = document.querySelector(img)
+        this.sprite = document.querySelector(sprite)
+
     }
     bringinfo = async() => {
         let personagemData = await fetch("../json/personagems.json")
@@ -23,10 +26,21 @@ class Movewindow {
                 index == 1 ? cont += 1 : cont -= 1
                 cont == 2 ? this.arrow[1].style.display = 'none' : this.arrow[1].style.display = 'block'
                 cont == 0 ? this.arrow[0].style.display = 'none' : this.arrow[0].style.display = 'block'
-                console.log(valores[cont])
+                this.showtime(valores[cont])
+
             })
         })
     }
+    showtime = (object) => {
+        Object.entries(object).forEach((valor) => {
+            if (document.querySelector(`.${valor[0]}`)) {
+                document.querySelector(`.${valor[0]}`).innerHTML = valor[1]
+            }
+        })
+        console.log(object.image)
+        this.img.src = `../${object.image}`
+        this.sprite.src = object.icon
+    }
 }
-const init = new Movewindow('.arrow')
+const init = new Movewindow('.arrow', '.image_personagem', '.icon_personagem')
 init.bringinfo()
