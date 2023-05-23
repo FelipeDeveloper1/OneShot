@@ -123,6 +123,16 @@
     height: 100%;
 }
 
+.right_arrow {
+    margin-left: auto;
+}
+
+.name {
+    color: white;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
 .info {
     display: flex;
     flex-direction: column;
