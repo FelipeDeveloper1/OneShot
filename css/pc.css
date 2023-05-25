@@ -37,7 +37,10 @@
     margin: auto;
     border: 5px solid white;
     border-radius: 2px;
-    background-image: linear-gradient(to right, #300214, #24000F, #220010);
+    background-image: url('../img/pc/personagens/niko/niko.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .barra {
@@ -166,17 +169,6 @@
 .sprite>img {
     height: 100%;
     border: 5px solid #5F1B34;
-}
-
-.personagem {
-    margin-left: auto;
-    margin-top: auto;
-    height: 93%;
-}
-
-.personagem>img {
-    width: 100%;
-    height: 100%;
 }
 
 

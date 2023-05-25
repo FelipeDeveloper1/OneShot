@@ -3,24 +3,39 @@
     "niko": {
         "name": "Niko",
         "descricao": "No fim de tudo, havia apenas uma esperança, a esperança que um dia o messias colocaria o novo sol na torre e traria toda luz de volta, para que um dia nossas vidas voltassem a como era antes.",
-        "image": "../img/window/niko.png",
-        "icon": "../img/window/Niko_icon.png",
-        "background": "linear-gradient(to right, #300214, #24000F, #220010);"
+        "image": "../img/pc/personagens/niko/niko.png",
+        "icon": "../img/window/Niko_icon.png"
     },
     "silver": {
         "name": "silver",
         "descricao": "Silver, engenheira, rôbo evoluido, vivendo proxima as minas, seu dever é  supervisionar e prestar manutenção das operações nas minas, chefe da equipe de robos e muito boa em xadrez.",
         "image": "../img/pc/personagens/silver/silver.png",
-        "icon": "../img/pc/personagens/silver/silver_sprite.png",
+        "icon": "../img/pc/personagens/silver/silver_sprite.png"
 
-        "background": ""
     },
     "ProfetaBot": {
         "name": "profeta robo",
         "descricao": "robo profeta é um robo muito gentil e amigável, uma pena a programação dele so permitir que ele fale com o messias, está sempre no aguardo do messias.",
         "image": "../img/pc/personagens/profetabo/profetobo.png",
-        "icon": "../img/pc/personagens/profetabo/profetobo_sprite.gif",
-        "background": ""
+        "icon": "../img/pc/personagens/profetabo/sprite_gif.gif"
+    },
+    "watcher": {
+        "name": "watcher",
+        "descricao": "sempre observando e aguardando o fim do mundo, aguardo do messias.",
+        "image": "../img/pc/personagens/watcher/watcher.png",
+        "icon": "../img/pc/personagens/watcher/watcher_icon.png"
+    },
+    "robo dos gato": {
+        "name": "robo dos gato",
+        "descricao": "O ROBO GOSTA DE GATOSKKKKKKKKKKKKKKKKKKK",
+        "image": "../img/pc/personagens/robodosgato/robodosgato.png",
+        "icon": "../img/pc/personagens/robodosgato/robodosgato_icon.png"
+    },
+    "mulher do elevador": {
+        "name": "mulher do elevador",
+        "descricao": "",
+        "image": "../img/pc/personagens/mulherdoelevador/mulherdoelevador.png",
+        "icon": ""
     }
 
 

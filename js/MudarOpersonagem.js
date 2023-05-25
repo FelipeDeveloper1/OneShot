@@ -24,7 +24,7 @@ class Movewindow {
         this.arrow.forEach((value, index) => {
             value.addEventListener('click', () => {
                 index == 1 ? cont += 1 : cont -= 1
-                cont == 2 ? this.arrow[1].style.display = 'none' : this.arrow[1].style.display = 'block'
+                cont == 5 ? this.arrow[1].style.display = 'none' : this.arrow[1].style.display = 'block'
                 cont == 0 ? this.arrow[0].style.display = 'none' : this.arrow[0].style.display = 'block'
                 this.showtime(valores[cont])
 
@@ -38,9 +38,9 @@ class Movewindow {
             }
         })
         console.log(object.image)
-        this.img.src = `../${object.image}`
+        this.img.style.backgroundImage = `url(../${object.image})`
         this.sprite.src = object.icon
     }
 }
-const init = new Movewindow('.arrow', '.image_personagem', '.icon_personagem')
+const init = new Movewindow('.arrow', '.window', '.icon_personagem')
 init.bringinfo()
