@@ -164,10 +164,13 @@
 .sprite {
     margin-left: 1vh;
     margin-bottom: 1vh;
+    width: 128px;
+    height: 128px;
 }
 
 .sprite>img {
     height: 100%;
+    width: 100%;
     border: 5px solid #5F1B34;
 }
 

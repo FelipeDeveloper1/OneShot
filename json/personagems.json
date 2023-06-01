@@ -1,41 +1,54 @@
 {
 
     "niko": {
-        "name": "Niko",
+        "name": "Nome: Niko",
         "descricao": "No fim de tudo, havia apenas uma esperança, a esperança que um dia o messias colocaria o novo sol na torre e traria toda luz de volta, para que um dia nossas vidas voltassem a como era antes.",
         "image": "../img/pc/personagens/niko/niko.png",
         "icon": "../img/window/Niko_icon.png"
     },
     "silver": {
-        "name": "silver",
+        "name": "Nome: Silver",
         "descricao": "Silver, engenheira, rôbo evoluido, vivendo proxima as minas, seu dever é  supervisionar e prestar manutenção das operações nas minas, chefe da equipe de robos e muito boa em xadrez.",
         "image": "../img/pc/personagens/silver/silver.png",
         "icon": "../img/pc/personagens/silver/silver_sprite.png"
 
     },
-    "ProfetaBot": {
-        "name": "profeta robo",
-        "descricao": "robo profeta é um robo muito gentil e amigável, uma pena a programação dele so permitir que ele fale com o messias, está sempre no aguardo do messias.",
-        "image": "../img/pc/personagens/profetabo/profetobo.png",
-        "icon": "../img/pc/personagens/profetabo/sprite_gif.gif"
+    "Alula": {
+        "name": "Nome: Alula",
+        "descricao": "Uma criança carinhosa e curiosa, ela vive nas ruinas e foi criada pelo seu irmão após sua mãe falecer, Alula é uma criança muito otimista e divertida",
+        "image": "../img/pc/personagens/alula/alula.png",
+        "icon": "../img/pc/personagens/alula/alula_icon.png"
+    },
+    "Calamus": {
+        "name": "Nome: Calamus",
+        "descricao": "Um garoto muito honesto e responsável, sua vida é ao lado de sua irmãzinha vivendo nas ruinas longe da cidade, sempre preocupado com sua irmã e se esforçando ao maximo para cuidar dela ",
+        "image": "../img/pc/personagens/calamus/calamus.png",
+        "icon": "../img/pc/personagens/calamus/calamus_icon.png"
     },
     "watcher": {
-        "name": "watcher",
-        "descricao": "sempre observando e aguardando o fim do mundo, aguardo do messias.",
+        "name": "Nome: Watcher",
+        "descricao": "Uma mulher estranha, se encontra na torre do relogio, apenas assistindo fim do mundo. segundos, minutos, horas e dias, o fluxo temporarial aos poucos nos empurra para frente em um vasto e desconhecido oceano, é um ciclo sem fim.",
         "image": "../img/pc/personagens/watcher/watcher.png",
         "icon": "../img/pc/personagens/watcher/watcher_icon.png"
     },
     "robo dos gato": {
-        "name": "robo dos gato",
-        "descricao": "O ROBO GOSTA DE GATOSKKKKKKKKKKKKKKKKKKK",
+        "name": "Nome: Kelvin",
+        "descricao": "Robô kelvin, vivendo em um dos confins da cidade, Kelvin atrai diversos gatos, criando e desenvolvendo um laço com os mesmo, não há muitas informações referente a ele, porém, é um robô muito gentil",
         "image": "../img/pc/personagens/robodosgato/robodosgato.png",
         "icon": "../img/pc/personagens/robodosgato/robodosgato_icon.png"
     },
     "mulher do elevador": {
-        "name": "mulher do elevador",
-        "descricao": "",
+        "name": "Nome: Lamplighter",
+        "descricao": "Um homem com visual cansado, sempre muito oculpado, seja rápido ao ajuda-lo, ele não pode se atrasar muito para o trabalho, movido a café, faz diversos trabalhos na cidade.",
         "image": "../img/pc/personagens/mulherdoelevador/mulherdoelevador.png",
-        "icon": ""
+        "icon": "../img/pc/personagens/mulherdoelevador/lamplightner.gif"
+
+    },
+    "Silver the creator": {
+        "name": "Nome: Kip",
+        "descricao": "A brilhante e bem respeita engenheira lider do refugio da população, Kip, é responsavel por grandes avanços na tecnologia robotica, fazendo a vida das pessoas mais faceis ou menos dificeis, criadora de diversos robôs, principalmente aqueles que trabalham nas minas, criadora principalmente de um robô que seria sua imagem, silver.",
+        "image": "../img/pc/personagens/silvercreator/silverCriadora.png",
+        "icon": "../img/pc/personagens/silvercreator/icon_kip.gif"
     }
 
 

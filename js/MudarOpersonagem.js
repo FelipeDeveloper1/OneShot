@@ -19,12 +19,13 @@ class Movewindow {
         this.move(valores)
     }
     move = (valores) => {
+        const total = valores.length - 1
         let cont = 0
         this.arrow[0].style.display = 'none'
         this.arrow.forEach((value, index) => {
             value.addEventListener('click', () => {
                 index == 1 ? cont += 1 : cont -= 1
-                cont == 5 ? this.arrow[1].style.display = 'none' : this.arrow[1].style.display = 'block'
+                cont == total ? this.arrow[1].style.display = 'none' : this.arrow[1].style.display = 'block'
                 cont == 0 ? this.arrow[0].style.display = 'none' : this.arrow[0].style.display = 'block'
                 this.showtime(valores[cont])
 
