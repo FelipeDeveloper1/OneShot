@@ -105,6 +105,9 @@
     height: 86%;
 }
 
+
+/* arrows para mudar o personagem */
+
 .arrows {
     display: flex;
     justify-content: space-between;
@@ -130,11 +133,11 @@
     margin-left: auto;
 }
 
-.name {
-    color: white;
-    font-size: 32px;
-    margin-left: 10px;
-}
+
+/* nome */
+
+
+/* conteudo que comporta todo o personagem na esquerda */
 
 .info {
     display: flex;
@@ -144,22 +147,51 @@
     justify-content: space-between;
 }
 
+
+/*  descrição e nome do personagem  */
+
 .personagem_text {
-    background-color: black;
-    opacity: 0.8;
     margin-left: 0.5vw;
-    width: 30vw;
+    width: 33vw;
     margin-top: 10vh;
     color: white;
     border-radius: 10px;
+    overflow-y: scroll;
+    height: 40%;
+    overflow-x: hidden;
+    opacity: 0.5;
+    background-color: black;
 }
 
-.personagem_text>p {
+.name {
+    color: white;
+    font-size: 32px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.personagem_text::-webkit-scrollbar {
+    width: 15px;
+}
+
+.personagem_text::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#8E25F5, #562CDE);
+}
+
+.personagem_text::-webkit-scrollbar-track {
+    padding: 50px;
+}
+
+.description>p {
+    margin-right: auto;
     font-size: 26px;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 10px;
 }
+
+
+/* sprite ou icon do personagem */
 
 .sprite {
     margin-left: 1vh;
@@ -210,6 +242,7 @@
     width: 6vw;
     height: 100%;
     margin-right: 2vw;
+    margin-left: auto;
 }
 
 .hora_atual>p {

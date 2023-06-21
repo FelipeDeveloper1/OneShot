@@ -14,3 +14,31 @@ setTime = () => {
 setInterval(() => {
     setTime()
 }, 1000)
+
+class CloseAndOpen {
+    constructor(minimize, pc, appAtual) {
+        this.minimize = document.querySelector(minimize)
+        this.pc = document.querySelector(pc)
+        this.appAtual = document.querySelector(appAtual)
+    }
+
+
+
+    executeMinimize = () => {
+        this.minimize.addEventListener('click', () => {
+            this.pc.style.display = 'none'
+        })
+    }
+    executeAppAtual = () => {
+        this.appAtual.addEventListener('click', () => {
+            this.pc.style.display = 'block'
+        })
+    }
+    call = () => {
+        this.executeMinimize()
+        this.executeAppAtual()
+    }
+}
+
+const AbleFunctions = new CloseAndOpen('.minimize', ".window", '.app_atual')
+AbleFunctions.call()
