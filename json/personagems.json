@@ -9,14 +9,14 @@
     "silver": {
         "name": "Nome: Silver",
         "descricao": "Silver, engenheira, rôbo evoluido, vivendo proxima as minas, seu dever é  supervisionar e prestar manutenção das operações nas minas, chefe da equipe de robos e muito boa em xadrez.",
-        "image": "../img/pc/personagens/silver/silver.png",
+        "image": "../OneShot/img/pc/personagens/silver/silver.png",
         "icon": "../img/pc/personagens/silver/silver_sprite.png"
 
     },
     "Alula": {
         "name": "Nome: Alula",
         "descricao": "Uma criança carinhosa e curiosa, ela vive nas ruinas e foi criada pelo seu irmão após sua mãe falecer, Alula é uma criança muito otimista e divertida",
-        "image": "../img/pc/personagens/alula/alula.png",
+        "image": "../OneShot/img/pc/personagens/alula/alula.png",
         "icon": "../img/pc/personagens/alula/alula_icon.png"
     },
     "Calamus": {

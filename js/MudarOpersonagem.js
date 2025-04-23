@@ -9,6 +9,7 @@ class Movewindow {
     bringinfo = async() => {
         let personagemData = await fetch("../json/personagems.json")
         this.data.personagens = await personagemData.json()
+        console.log(this.data)
         this.teste(this.data)
     }
     teste = (data) => {
