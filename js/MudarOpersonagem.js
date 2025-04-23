@@ -9,7 +9,6 @@ class Movewindow {
     bringinfo = async() => {
         let personagemData = await fetch("../json/personagems.json")
         this.data.personagens = await personagemData.json()
-        console.log(this.data)
         this.teste(this.data)
     }
     teste = (data) => {
@@ -35,6 +34,8 @@ class Movewindow {
     }
     showtime = (object) => {
         Object.entries(object).forEach((valor) => {
+            console.log("aqq")
+            console.log(valor[0])
             if (document.querySelector(`.${valor[0]}`)) {
                 document.querySelector(`.${valor[0]}`).innerHTML = valor[1]
             }
